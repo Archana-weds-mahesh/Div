@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register | Jahnavihub</title>
+  <link rel="stylesheet" href="css/auth.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+</head>
+<body class="preload">
+
+  <div class="auth-container">
+    <h2>Create your Jahnavihub Account</h2>
+    <p><a href="index.html" style="text-decoration: none; color: navy;">← Back to Home</a></p>
+    <form id="registerForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Password" required />
+
+      <button type="submit">Register</button>
+    </form>
+    <p>Already registered? <a href="login.html">Login here</a></p>
+  </div>
+
+  <!-- ✅ Firebase Logic -->
+  <script type="module" src="js/register.js"></script>
+  <script type="module" src="js/dmscript.js"></script>
+</body>
+</html>

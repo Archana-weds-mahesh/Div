@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahnavihub | Home</title>
+  <link rel="icon" href="assets/logo.png">
+  <!-- Favicon -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts (optional) -->
+  <style>
+  body.preload {
+    visibility: hidden;
+  }
+</style>
+</head>
+
+<body class="preload">
+  <div id="loader">Loading...</div>
+
+  <!-- ✅ All actual content inside this wrapper -->
+  <div id="main-content" style="display: none;">
+  <nav class="nav_bar">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="logo" class="nav-logo-icon">
+        <span>Jahnavihub</span>
+      </div>
+      <ul id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="materials.html">Material</a></li>
+        <li><a href="events.html">Events</a></li> 
+        <li><a href="settings.html">Settings</a></li>
+
+        <!-- These toggle based on auth state -->
+        <li id="nav-login"><a href="login.html">Login</a></li>
+        <li id="nav-register"><a href="register.html">Register</a></li>
+        <li id="nav-logout" style="display: none;"><a href="#" id="logout-link">Logout</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <section class="about-section">
+  <h2>📘 What is Jahnavihub?</h2>
+  <p>A platform made by students, for students!</p>
+  <p>Access study materials, event memories, and more.</p>
+  <p>✅ Organized Notes &nbsp;&nbsp; ✅ Event Archives &nbsp;&nbsp; ✅ Easy Access &nbsp;&nbsp; ✅ Admin Verified Content</p>
+</section>
+
+  <section class="hero-section">
+  <div class="hero-content">
+    <h1>Welcome to Jahnavihub 👋</h1>
+    <h2 id="welcome-text">Welcome to Jahnavihub!</h2>
+    <p>Your one-stop archive for notes, events & more!</p>
+    <div class="hero-buttons">
+      <a href="materials.html" class="btn-primary">📚 Explore Materials</a>
+      <a href="login.html" class="btn-secondary" id="hero-login-btn">🔐 Login Now</a>
+    </div>
+  </div>
+</section>
+</div>
+
+</body>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h3>Jahnavihub</h3>
+      <p>Made by students, for students 📘</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="materials.html">Materials</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:jahnavihub@gmail.com">jahnavihub@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Jahnavihub. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js"></script>
+<script type="module" src="js/script.js"></script>
+<script type="module" src="js/dmscript.js"></script>
+</html> 
