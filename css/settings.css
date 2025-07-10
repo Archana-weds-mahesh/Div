@@ -1,0 +1,81 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.settings-header, .settings-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.settings-content {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile-section, .password-section {
+  margin-bottom: 40px;
+}
+
+.profile-form, .password-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e95d00;
+}
+
+.theme-btn {
+  margin-top: 10px;
+  background-color: #222;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.dark-mode input {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.dark-mode .settings-header,
+.dark-mode .settings-footer {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .theme-btn {
+  background-color: #f5f5f5;
+  color: #121212;
+}

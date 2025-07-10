@@ -1,0 +1,162 @@
+/* === DARK MODE GLOBAL === */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .nav_bar,
+.dark-mode .footer,
+.dark-mode .hero-section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+
+.dark-mode .btn-primary,
+.dark-mode .btn-secondary {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+/* Hero section fix */
+body.dark-mode .hero-section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* About section */
+body.dark-mode .about-section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Navbar */
+body.dark-mode .nav_bar {
+  background-color: #1a1a1a;
+}
+
+/* Buttons */
+body.dark-mode .btn-primary,
+body.dark-mode .btn-secondary {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+/* Headings, taglines inside hero/about sections in dark mode */
+body.dark-mode .hero-section h1,
+body.dark-mode .hero-section h2,
+body.dark-mode .hero-section p,
+body.dark-mode .about-section h2,
+body.dark-mode .about-section p {
+  color: #f1f1f1;
+}
+
+body.dark-mode .hero-section {
+  background: rgba(30, 30, 30, 0.95);
+  backdrop-filter: blur(4px);
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .hero-buttons a {
+  background-color: #333;
+  color: #fff !important;
+  border: 1px solid #555;
+}
+
+/* 🌙 Dark Mode for Materials Page */
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark-mode .material-card {
+  background-color: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .material-card h3 {
+  color: #ffcc80;
+}
+
+body.dark-mode .sem {
+  background-color: #222;
+  color: orange;
+  border-color: orange;
+}
+
+body.dark-mode .sem:hover {
+  background-color: orange;
+  color: white;
+}
+
+body.dark-mode .feedback-section {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+body.dark-mode .feedback-section h3 {
+  color: #ffcc80;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark-mode #feedback-form button {
+  background-color: orange;
+  color: white;
+}
+
+body.dark-mode #feedback-form button:hover {
+  background-color: darkorange;
+}
+
+body.dark-mode a {
+  color: #80d8ff;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark-mode .auth-container {
+  background-color: #1e1e1e;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .auth-container h2 {
+  color: #eee;
+}
+
+body.dark-mode .auth-container input {
+  background-color: #222;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+body.dark-mode .auth-container input:focus {
+  border-color: orange;
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.3);
+}
+
+body.dark-mode .auth-container a {
+  color: lightgreen;
+}
+
+
